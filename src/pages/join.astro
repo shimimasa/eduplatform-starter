@@ -1,0 +1,34 @@
+---
+// EduPlatform Starter — Join Session (participant view)
+---
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Join Session — EduPlatform</title>
+  <link rel="stylesheet" href="/src/styles/global.css" />
+</head>
+<body>
+  <header style="background: white; border-bottom: 1px solid var(--color-border); padding: 1rem 0;">
+    <div class="container flex justify-between items-center">
+      <a href="/" style="text-decoration: none; color: inherit;">
+        <strong style="font-size: 1.125rem;">EduPlatform</strong>
+      </a>
+      <a href="/dashboard" class="btn btn-secondary">Dashboard</a>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top: 2rem; padding-bottom: 2rem;">
+    <div id="app">
+      <p class="text-secondary text-center mt-8">Loading...</p>
+    </div>
+  </main>
+
+  <script>
+    import { h, render } from 'preact';
+    import JoinSession from '../components/JoinSession';
+
+    render(h(JoinSession, null), document.getElementById('app')!);
+  </script>
+</body>
+</html>

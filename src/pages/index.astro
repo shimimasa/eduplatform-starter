@@ -1,0 +1,91 @@
+---
+// EduPlatform Starter — Landing Page
+---
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EduPlatform Starter</title>
+  <link rel="stylesheet" href="/src/styles/global.css" />
+</head>
+<body>
+  <header style="background: white; border-bottom: 1px solid var(--color-border); padding: 1rem 0;">
+    <div class="container flex justify-between items-center">
+      <strong style="font-size: 1.125rem;">EduPlatform</strong>
+      <nav class="flex gap-4 items-center">
+        <a href="/join" class="btn btn-secondary">Join Session</a>
+        <a href="/dashboard" class="btn btn-primary">Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top: 4rem; padding-bottom: 4rem;">
+    <section class="text-center" style="max-width: 640px; margin: 0 auto;">
+      <h1 style="font-size: 2.5rem; font-weight: 700; line-height: 1.2;">
+        Build education platforms<br/>faster
+      </h1>
+      <p class="text-secondary mt-4" style="font-size: 1.125rem;">
+        Open-source Astro + Supabase starter with groups, participants,
+        live sessions, and realtime — designed for classroom use cases.
+      </p>
+      <div class="flex gap-4 items-center mt-8" style="justify-content: center;">
+        <a href="/dashboard" class="btn btn-primary btn-lg">Get Started</a>
+        <a href="https://github.com/shimimasa/eduplatform-starter" class="btn btn-secondary btn-lg" target="_blank">
+          GitHub
+        </a>
+      </div>
+    </section>
+
+    <section class="grid-2 mt-8" style="margin-top: 4rem;">
+      <div class="card">
+        <h3 style="font-weight: 600;">Groups & Participants</h3>
+        <p class="text-secondary mt-2">
+          Organize students into classes, cohorts, or teams.
+          Bulk add participants — no accounts required.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="font-weight: 600;">Live Sessions</h3>
+        <p class="text-secondary mt-2">
+          Create sessions with join codes. Participants join from any device.
+          Facilitators control phases in real time.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="font-weight: 600;">Realtime Updates</h3>
+        <p class="text-secondary mt-2">
+          Supabase Realtime on session tables. See who joined,
+          track progress, and collect feedback — all live.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="font-weight: 600;">Row Level Security</h3>
+        <p class="text-secondary mt-2">
+          24 RLS policies out of the box. Organization-scoped data,
+          creator ownership, and anonymous participant access via tokens.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="font-weight: 600;">Organization Admin</h3>
+        <p class="text-secondary mt-2">
+          Multi-user organizations with role management (member/admin/owner),
+          invitations with expiring tokens, and role change audit logs.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="font-weight: 600;">Extensible</h3>
+        <p class="text-secondary mt-2">
+          Add your own session phases, response tables, gamification,
+          or analytics. The schema is designed to be extended.
+        </p>
+      </div>
+    </section>
+
+    <section class="text-center" style="margin-top: 4rem;">
+      <p class="text-secondary">
+        Extracted from a production education platform serving Japanese classrooms.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
