@@ -8,9 +8,10 @@
     "preview": "astro preview"
   },
   "dependencies": {
+    "@astrojs/node": "^9.5.5",
+    "@astrojs/preact": "^4.0.0",
     "@supabase/supabase-js": "^2.49.0",
     "astro": "^5.7.0",
-    "@astrojs/preact": "^4.0.0",
     "preact": "^10.25.0"
   },
   "devDependencies": {
